@@ -36,7 +36,6 @@
                                 </state>
                                 <connections>
                                     <action selector="loginPerson:" destination="8ao-dZ-JRl" eventType="touchUpInside" id="ozV-Et-c0R"/>
-                                    <segue destination="pLz-Sc-NIi" kind="push" id="SFC-Pu-bpA"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Djl-oF-ckA">
@@ -76,6 +75,7 @@
                         <outlet property="registerButn" destination="ppy-Fx-ZUc" id="EcP-cL-nOP"/>
                         <outlet property="userField" destination="Djl-oF-ckA" id="xwf-5v-4sF"/>
                         <outlet property="userLabel" destination="5kc-6f-V1j" id="beX-wr-0Ac"/>
+                        <segue destination="pLz-Sc-NIi" kind="push" identifier="login" id="64d-XK-wHW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jmC-a3-b0L" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -107,7 +107,6 @@
                                 </state>
                                 <connections>
                                     <action selector="registerPerson:" destination="mSM-PV-Hux" eventType="touchUpInside" id="kvp-by-iT5"/>
-                                    <segue destination="8ao-dZ-JRl" kind="push" id="V9q-69-l3I"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eae-5N-g2p">
@@ -158,11 +157,12 @@
                         <outlet property="registerButn" destination="259-JM-4DE" id="kFI-mu-AuO"/>
                         <outlet property="userField" destination="l6s-QS-F4i" id="vYM-gz-LgX"/>
                         <outlet property="userLabel" destination="Eae-5N-g2p" id="qfE-sC-gzS"/>
+                        <segue destination="8ao-dZ-JRl" kind="push" identifier="register" id="7za-nr-E0B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHs-Ay-aHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="649" y="-255"/>
+            <point key="canvasLocation" x="597" y="-43"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="voz-Nn-icX">
@@ -551,7 +551,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="V9q-69-l3I"/>
+        <segue reference="7za-nr-E0B"/>
         <segue reference="MQ0-wk-GNS"/>
     </inferredMetricsTieBreakers>
 </document>

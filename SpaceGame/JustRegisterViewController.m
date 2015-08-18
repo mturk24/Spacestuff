@@ -65,8 +65,9 @@
     [defaults synchronize];
     UIAlertView *success = [[UIAlertView alloc] initWithTitle:@"Success" message:@"You have registered a new user!" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
     [success show];
+    [self performSegueWithIdentifier:@"register" sender:self];
     
-    //    [self performSegueWithIdentifier:@"login" sender:self];
+    
 }
 /*
 #pragma mark - Navigation

@@ -50,12 +50,13 @@
     if ([_userField.text isEqualToString:[defaults objectForKey:@"username"]] && [_passField.text isEqualToString:[defaults objectForKey:@"password"]]) {
         UIAlertView *success = [[UIAlertView alloc] initWithTitle:@"Success" message:@"You have successfully logged in!" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
         [success show];
+        [self performSegueWithIdentifier:@"login" sender:self];
     }
     else {
-        
+        [self viewDidLoad];
         UIAlertView *err = [[UIAlertView alloc] initWithTitle:@"Oops" message:@"Either your username, your password, or both, are wrong." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
         [err show];
-        [self.view setNeedsDisplay];
+        
         
     }
     
