@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface RegisterLoginViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *registerButn;
+@property (strong, nonatomic) IBOutlet UIButton *loginButn;
+@property (strong, nonatomic) IBOutlet UITextField *userField;
+@property (strong, nonatomic) IBOutlet UITextField *passField;
+@property (strong, nonatomic) IBOutlet UILabel *userLabel;
+@property (strong, nonatomic) IBOutlet UILabel *passLabel;
+
+
+
 
 @end

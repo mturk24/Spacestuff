@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2A8BFDD1B5A0CAD00408288"
-               BuildableName = "SpaceQuiz.app"
-               BlueprintName = "SpaceGame"
-               ReferencedContainer = "container:SpaceGame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2A8BFF61B5A0CAD00408288"
-               BuildableName = "SpaceQuizTests.xctest"
-               BlueprintName = "SpaceGameTests"
-               ReferencedContainer = "container:SpaceGame.xcodeproj">
+               BuildableName = "CosmoQuiz.app"
+               BlueprintName = "CosmoQuiz"
+               ReferencedContainer = "container:CosmoQuiz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2A8BFF61B5A0CAD00408288"
-               BuildableName = "SpaceQuizTests.xctest"
-               BlueprintName = "SpaceGameTests"
-               ReferencedContainer = "container:SpaceGame.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2A8BFDD1B5A0CAD00408288"
-            BuildableName = "SpaceQuiz.app"
-            BlueprintName = "SpaceGame"
-            ReferencedContainer = "container:SpaceGame.xcodeproj">
+            BuildableName = "CosmoQuiz.app"
+            BlueprintName = "CosmoQuiz"
+            ReferencedContainer = "container:CosmoQuiz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2A8BFDD1B5A0CAD00408288"
-            BuildableName = "SpaceQuiz.app"
-            BlueprintName = "SpaceGame"
-            ReferencedContainer = "container:SpaceGame.xcodeproj">
+            BuildableName = "CosmoQuiz.app"
+            BlueprintName = "CosmoQuiz"
+            ReferencedContainer = "container:CosmoQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2A8BFDD1B5A0CAD00408288"
-            BuildableName = "SpaceQuiz.app"
-            BlueprintName = "SpaceGame"
-            ReferencedContainer = "container:SpaceGame.xcodeproj">
+            BuildableName = "CosmoQuiz.app"
+            BlueprintName = "CosmoQuiz"
+            ReferencedContainer = "container:CosmoQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

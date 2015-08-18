@@ -7,27 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B26D822B1B8139BD009CE795 /* JustRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D822A1B8139BD009CE795 /* JustRegisterViewController.m */; };
+		B27F4B271B5CA72800ED08F1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F4B261B5CA72800ED08F1 /* MainViewController.m */; };
+		B27F4B2D1B60739200ED08F1 /* PlayModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F4B2C1B60739200ED08F1 /* PlayModeViewController.m */; };
+		B27F4B301B607CDB00ED08F1 /* EasyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27F4B2F1B607CDB00ED08F1 /* EasyViewController.m */; };
 		B2A8BFE41B5A0CAD00408288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8BFE31B5A0CAD00408288 /* main.m */; };
 		B2A8BFE71B5A0CAD00408288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8BFE61B5A0CAD00408288 /* AppDelegate.m */; };
 		B2A8BFEA1B5A0CAD00408288 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8BFE91B5A0CAD00408288 /* ViewController.m */; };
 		B2A8BFED1B5A0CAD00408288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A8BFEB1B5A0CAD00408288 /* Main.storyboard */; };
 		B2A8BFEF1B5A0CAD00408288 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A8BFEE1B5A0CAD00408288 /* Images.xcassets */; };
 		B2A8BFF21B5A0CAD00408288 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A8BFF01B5A0CAD00408288 /* LaunchScreen.xib */; };
-		B2A8BFFE1B5A0CAD00408288 /* SpaceGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8BFFD1B5A0CAD00408288 /* SpaceGameTests.m */; };
+		B2A8C0091B5A0FA200408288 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8C0081B5A0FA200408288 /* SecondViewController.m */; };
+		B2A8C00B1B5C6E2900408288 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A8C00A1B5C6E2900408288 /* Default-568h@2x.png */; };
+		B2DB03FA1B6C446900F3CAF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DB03F91B6C446900F3CAF6 /* AVFoundation.framework */; };
+		B2DB03FC1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2DB03FB1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 */; };
+		B2DB03FE1B6D2A6D00F3CAF6 /* spacemusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2DB03FD1B6D2A6D00F3CAF6 /* spacemusic.mp3 */; };
+		B2DB04001B6ED19300F3CAF6 /* space1.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB03FF1B6ED19300F3CAF6 /* space1.png */; };
+		B2DB04021B6ED19A00F3CAF6 /* space2.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB04011B6ED19A00F3CAF6 /* space2.png */; };
+		B2DB04041B6ED1A200F3CAF6 /* space3.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB04031B6ED1A200F3CAF6 /* space3.png */; };
+		B2DB04061B6ED1AA00F3CAF6 /* space4.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB04051B6ED1AA00F3CAF6 /* space4.png */; };
+		B2DB04081B6ED1B100F3CAF6 /* space5.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB04071B6ED1B100F3CAF6 /* space5.png */; };
+		B2DB040A1B6ED1B900F3CAF6 /* space6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2DB04091B6ED1B900F3CAF6 /* space6.jpg */; };
+		B2DB040C1B72C73C00F3CAF6 /* CosmoQuiz.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB040B1B72C73C00F3CAF6 /* CosmoQuiz.png */; };
+		B2DB040E1B76A57300F3CAF6 /* coolplanet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2DB040D1B76A57300F3CAF6 /* coolplanet.jpg */; };
+		B2DB04171B7AEC2E00F3CAF6 /* RegisterLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB04161B7AEC2E00F3CAF6 /* RegisterLoginViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B2A8BFF81B5A0CAD00408288 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2A8BFD61B5A0CAD00408288 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2A8BFDD1B5A0CAD00408288;
-			remoteInfo = SpaceGame;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B2A8BFDE1B5A0CAD00408288 /* SpaceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26D82291B8139BD009CE795 /* JustRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustRegisterViewController.h; sourceTree = "<group>"; };
+		B26D822A1B8139BD009CE795 /* JustRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustRegisterViewController.m; sourceTree = "<group>"; };
+		B27F4B251B5CA72800ED08F1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B27F4B261B5CA72800ED08F1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B27F4B2B1B60739200ED08F1 /* PlayModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayModeViewController.h; sourceTree = "<group>"; };
+		B27F4B2C1B60739200ED08F1 /* PlayModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayModeViewController.m; sourceTree = "<group>"; };
+		B27F4B2E1B607CDB00ED08F1 /* EasyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyViewController.h; sourceTree = "<group>"; };
+		B27F4B2F1B607CDB00ED08F1 /* EasyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyViewController.m; sourceTree = "<group>"; };
+		B2A8BFDE1B5A0CAD00408288 /* CosmoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A8BFE21B5A0CAD00408288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A8BFE31B5A0CAD00408288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2A8BFE51B5A0CAD00408288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +52,24 @@
 		B2A8BFEC1B5A0CAD00408288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2A8BFEE1B5A0CAD00408288 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B2A8BFF11B5A0CAD00408288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B2A8BFF71B5A0CAD00408288 /* SpaceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A8BFFC1B5A0CAD00408288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2A8BFFD1B5A0CAD00408288 /* SpaceGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceGameTests.m; sourceTree = "<group>"; };
+		B2A8BFFD1B5A0CAD00408288 /* CosmoQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CosmoQuizTests.m; sourceTree = "<group>"; };
+		B2A8C0071B5A0FA200408288 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B2A8C0081B5A0FA200408288 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B2A8C00A1B5C6E2900408288 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B2DB03F91B6C446900F3CAF6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B2DB03FB1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Beautiful_Ambient_Space_Music__Part_3.mp3; path = ../../../../Downloads/Beautiful_Ambient_Space_Music__Part_3.mp3; sourceTree = "<group>"; };
+		B2DB03FD1B6D2A6D00F3CAF6 /* spacemusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spacemusic.mp3; path = ../../../../Downloads/spacemusic.mp3; sourceTree = "<group>"; };
+		B2DB03FF1B6ED19300F3CAF6 /* space1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space1.png; path = ../../../space1.png; sourceTree = "<group>"; };
+		B2DB04011B6ED19A00F3CAF6 /* space2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space2.png; path = ../../../space2.png; sourceTree = "<group>"; };
+		B2DB04031B6ED1A200F3CAF6 /* space3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space3.png; path = ../../../space3.png; sourceTree = "<group>"; };
+		B2DB04051B6ED1AA00F3CAF6 /* space4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space4.png; path = ../../../space4.png; sourceTree = "<group>"; };
+		B2DB04071B6ED1B100F3CAF6 /* space5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space5.png; path = ../../../space5.png; sourceTree = "<group>"; };
+		B2DB04091B6ED1B900F3CAF6 /* space6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = space6.jpg; path = ../../../space6.jpg; sourceTree = "<group>"; };
+		B2DB040B1B72C73C00F3CAF6 /* CosmoQuiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CosmoQuiz.png; path = ../../../CosmoQuiz.png; sourceTree = "<group>"; };
+		B2DB040D1B76A57300F3CAF6 /* coolplanet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coolplanet.jpg; path = ../../../../Documents/coolplanet.jpg; sourceTree = "<group>"; };
+		B2DB04151B7AEC2E00F3CAF6 /* RegisterLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterLoginViewController.h; sourceTree = "<group>"; };
+		B2DB04161B7AEC2E00F3CAF6 /* RegisterLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2A8BFF41B5A0CAD00408288 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B2DB03FA1B6C446900F3CAF6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +87,10 @@
 		B2A8BFD51B5A0CAD00408288 = {
 			isa = PBXGroup;
 			children = (
-				B2A8BFE01B5A0CAD00408288 /* SpaceGame */,
-				B2A8BFFA1B5A0CAD00408288 /* SpaceGameTests */,
+				B2DB03F91B6C446900F3CAF6 /* AVFoundation.framework */,
+				B2A8C00A1B5C6E2900408288 /* Default-568h@2x.png */,
+				B2A8BFE01B5A0CAD00408288 /* CosmoQuiz */,
+				B2A8BFFA1B5A0CAD00408288 /* CosmoQuizTests */,
 				B2A8BFDF1B5A0CAD00408288 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,24 +98,46 @@
 		B2A8BFDF1B5A0CAD00408288 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2A8BFDE1B5A0CAD00408288 /* SpaceGame.app */,
-				B2A8BFF71B5A0CAD00408288 /* SpaceGameTests.xctest */,
+				B2A8BFDE1B5A0CAD00408288 /* CosmoQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2A8BFE01B5A0CAD00408288 /* SpaceGame */ = {
+		B2A8BFE01B5A0CAD00408288 /* CosmoQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				B2DB040D1B76A57300F3CAF6 /* coolplanet.jpg */,
+				B2DB040B1B72C73C00F3CAF6 /* CosmoQuiz.png */,
+				B2DB04091B6ED1B900F3CAF6 /* space6.jpg */,
+				B2DB04071B6ED1B100F3CAF6 /* space5.png */,
+				B2DB04051B6ED1AA00F3CAF6 /* space4.png */,
+				B2DB04031B6ED1A200F3CAF6 /* space3.png */,
+				B2DB04011B6ED19A00F3CAF6 /* space2.png */,
+				B2DB03FF1B6ED19300F3CAF6 /* space1.png */,
+				B2DB03FD1B6D2A6D00F3CAF6 /* spacemusic.mp3 */,
+				B2DB03FB1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 */,
 				B2A8BFE51B5A0CAD00408288 /* AppDelegate.h */,
 				B2A8BFE61B5A0CAD00408288 /* AppDelegate.m */,
+				B27F4B251B5CA72800ED08F1 /* MainViewController.h */,
+				B27F4B261B5CA72800ED08F1 /* MainViewController.m */,
+				B27F4B2E1B607CDB00ED08F1 /* EasyViewController.h */,
+				B27F4B2F1B607CDB00ED08F1 /* EasyViewController.m */,
+				B2DB04151B7AEC2E00F3CAF6 /* RegisterLoginViewController.h */,
+				B2DB04161B7AEC2E00F3CAF6 /* RegisterLoginViewController.m */,
+				B26D82291B8139BD009CE795 /* JustRegisterViewController.h */,
+				B26D822A1B8139BD009CE795 /* JustRegisterViewController.m */,
 				B2A8BFE81B5A0CAD00408288 /* ViewController.h */,
 				B2A8BFE91B5A0CAD00408288 /* ViewController.m */,
+				B27F4B2B1B60739200ED08F1 /* PlayModeViewController.h */,
+				B27F4B2C1B60739200ED08F1 /* PlayModeViewController.m */,
+				B2A8C0071B5A0FA200408288 /* SecondViewController.h */,
+				B2A8C0081B5A0FA200408288 /* SecondViewController.m */,
 				B2A8BFEB1B5A0CAD00408288 /* Main.storyboard */,
 				B2A8BFEE1B5A0CAD00408288 /* Images.xcassets */,
 				B2A8BFF01B5A0CAD00408288 /* LaunchScreen.xib */,
 				B2A8BFE11B5A0CAD00408288 /* Supporting Files */,
 			);
+			name = CosmoQuiz;
 			path = SpaceGame;
 			sourceTree = "<group>";
 		};
@@ -102,12 +150,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B2A8BFFA1B5A0CAD00408288 /* SpaceGameTests */ = {
+		B2A8BFFA1B5A0CAD00408288 /* CosmoQuizTests */ = {
 			isa = PBXGroup;
 			children = (
-				B2A8BFFD1B5A0CAD00408288 /* SpaceGameTests.m */,
+				B2A8BFFD1B5A0CAD00408288 /* CosmoQuizTests.m */,
 				B2A8BFFB1B5A0CAD00408288 /* Supporting Files */,
 			);
+			name = CosmoQuizTests;
 			path = SpaceGameTests;
 			sourceTree = "<group>";
 		};
@@ -122,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2A8BFDD1B5A0CAD00408288 /* SpaceGame */ = {
+		B2A8BFDD1B5A0CAD00408288 /* CosmoQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2A8C0011B5A0CAD00408288 /* Build configuration list for PBXNativeTarget "SpaceGame" */;
+			buildConfigurationList = B2A8C0011B5A0CAD00408288 /* Build configuration list for PBXNativeTarget "CosmoQuiz" */;
 			buildPhases = (
 				B2A8BFDA1B5A0CAD00408288 /* Sources */,
 				B2A8BFDB1B5A0CAD00408288 /* Frameworks */,
@@ -134,28 +183,10 @@
 			);
 			dependencies = (
 			);
-			name = SpaceGame;
+			name = CosmoQuiz;
 			productName = SpaceGame;
-			productReference = B2A8BFDE1B5A0CAD00408288 /* SpaceGame.app */;
+			productReference = B2A8BFDE1B5A0CAD00408288 /* CosmoQuiz.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B2A8BFF61B5A0CAD00408288 /* SpaceGameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2A8C0041B5A0CAD00408288 /* Build configuration list for PBXNativeTarget "SpaceGameTests" */;
-			buildPhases = (
-				B2A8BFF31B5A0CAD00408288 /* Sources */,
-				B2A8BFF41B5A0CAD00408288 /* Frameworks */,
-				B2A8BFF51B5A0CAD00408288 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2A8BFF91B5A0CAD00408288 /* PBXTargetDependency */,
-			);
-			name = SpaceGameTests;
-			productName = SpaceGameTests;
-			productReference = B2A8BFF71B5A0CAD00408288 /* SpaceGameTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,13 +200,9 @@
 					B2A8BFDD1B5A0CAD00408288 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					B2A8BFF61B5A0CAD00408288 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = B2A8BFDD1B5A0CAD00408288;
-					};
 				};
 			};
-			buildConfigurationList = B2A8BFD91B5A0CAD00408288 /* Build configuration list for PBXProject "SpaceGame" */;
+			buildConfigurationList = B2A8BFD91B5A0CAD00408288 /* Build configuration list for PBXProject "CosmoQuiz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +215,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2A8BFDD1B5A0CAD00408288 /* SpaceGame */,
-				B2A8BFF61B5A0CAD00408288 /* SpaceGameTests */,
+				B2A8BFDD1B5A0CAD00408288 /* CosmoQuiz */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +225,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DB04081B6ED1B100F3CAF6 /* space5.png in Resources */,
+				B2DB04001B6ED19300F3CAF6 /* space1.png in Resources */,
+				B2DB03FE1B6D2A6D00F3CAF6 /* spacemusic.mp3 in Resources */,
+				B2DB04041B6ED1A200F3CAF6 /* space3.png in Resources */,
 				B2A8BFED1B5A0CAD00408288 /* Main.storyboard in Resources */,
+				B2DB04021B6ED19A00F3CAF6 /* space2.png in Resources */,
+				B2DB040E1B76A57300F3CAF6 /* coolplanet.jpg in Resources */,
+				B2DB04061B6ED1AA00F3CAF6 /* space4.png in Resources */,
+				B2DB040C1B72C73C00F3CAF6 /* CosmoQuiz.png in Resources */,
+				B2DB040A1B6ED1B900F3CAF6 /* space6.jpg in Resources */,
+				B2A8C00B1B5C6E2900408288 /* Default-568h@2x.png in Resources */,
 				B2A8BFF21B5A0CAD00408288 /* LaunchScreen.xib in Resources */,
+				B2DB03FC1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 in Resources */,
 				B2A8BFEF1B5A0CAD00408288 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2A8BFF51B5A0CAD00408288 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,29 +249,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A8C0091B5A0FA200408288 /* SecondViewController.m in Sources */,
+				B26D822B1B8139BD009CE795 /* JustRegisterViewController.m in Sources */,
+				B27F4B2D1B60739200ED08F1 /* PlayModeViewController.m in Sources */,
 				B2A8BFEA1B5A0CAD00408288 /* ViewController.m in Sources */,
 				B2A8BFE71B5A0CAD00408288 /* AppDelegate.m in Sources */,
+				B27F4B301B607CDB00ED08F1 /* EasyViewController.m in Sources */,
+				B2DB04171B7AEC2E00F3CAF6 /* RegisterLoginViewController.m in Sources */,
+				B27F4B271B5CA72800ED08F1 /* MainViewController.m in Sources */,
 				B2A8BFE41B5A0CAD00408288 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2A8BFF31B5A0CAD00408288 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2A8BFFE1B5A0CAD00408288 /* SpaceGameTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B2A8BFF91B5A0CAD00408288 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B2A8BFDD1B5A0CAD00408288 /* SpaceGame */;
-			targetProxy = B2A8BFF81B5A0CAD00408288 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B2A8BFEB1B5A0CAD00408288 /* Main.storyboard */ = {
@@ -266,7 +286,7 @@
 		B2A8BFFF1B5A0CAD00408288 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -284,6 +304,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "./**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -309,7 +330,7 @@
 		B2A8C0001B5A0CAD00408288 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -328,6 +349,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "./**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -347,9 +369,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SpaceGame/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = CosmoQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = CosmoQuiz;
 			};
 			name = Debug;
 		};
@@ -357,50 +382,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SpaceGame/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = CosmoQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B2A8C0051B5A0CAD00408288 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SpaceGameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceGame.app/SpaceGame";
-			};
-			name = Debug;
-		};
-		B2A8C0061B5A0CAD00408288 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SpaceGameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceGame.app/SpaceGame";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = CosmoQuiz;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2A8BFD91B5A0CAD00408288 /* Build configuration list for PBXProject "SpaceGame" */ = {
+		B2A8BFD91B5A0CAD00408288 /* Build configuration list for PBXProject "CosmoQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2A8BFFF1B5A0CAD00408288 /* Debug */,
@@ -409,21 +403,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2A8C0011B5A0CAD00408288 /* Build configuration list for PBXNativeTarget "SpaceGame" */ = {
+		B2A8C0011B5A0CAD00408288 /* Build configuration list for PBXNativeTarget "CosmoQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2A8C0021B5A0CAD00408288 /* Debug */,
 				B2A8C0031B5A0CAD00408288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B2A8C0041B5A0CAD00408288 /* Build configuration list for PBXNativeTarget "SpaceGameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2A8C0051B5A0CAD00408288 /* Debug */,
-				B2A8C0061B5A0CAD00408288 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,30 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface EasyViewController : UIViewController
+int click;
+@interface EasyViewController : UIViewController {
+    
+    IBOutlet UITextView *question;
+    IBOutlet UIButton *passButton;
+    IBOutlet UIButton *submitButton;
+    IBOutlet UIButton *restartButton;
+    IBOutlet UITextField *answerField;
+    IBOutlet UILabel *win;
+    AVAudioPlayer *sounds;
+    
+    
+}
+@property (assign) BOOL myBool;
+@property (assign) UILabel *wrongMessage;
+
+
+-(IBAction)solveProblem:(id)sender;
+
+-(IBAction)restartGame:(id)sender;
+
+-(NSInteger)randomNumberBetween;
+
 
 @end

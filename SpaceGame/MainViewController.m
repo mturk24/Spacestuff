@@ -14,14 +14,61 @@
 
 @implementation MainViewController
 
+-(IBAction) play:(id)sender {
+//    if(clicked == 0) {
+//        clicked = 1;
+//        NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/Beautiful_Ambient_Space_Music__Part_3", [[NSBundle mainBundle] resourcePath]]];
+//        NSError *error;
+//        sound = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+//        sound.numberOfLoops = 1000;
+//        [sound play];
+//        
+//    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    animatedPicture.animationImages = [NSArray arrayWithObjects:
+//                                       [UIImage imageNamed:@"space1.png"],
+//                                       [UIImage imageNamed:@"space2.png"],
+//                                       [UIImage imageNamed:@"space3.png"],
+//                                       [UIImage imageNamed:@"space4.png"],
+//                                       [UIImage imageNamed:@"space5.png"],
+//                                       [UIImage imageNamed:@"space6.jpg"], nil];
+//    [animatedPicture setAnimationRepeatCount:0];
+//    animatedPicture.animationDuration = 5;
+//    [animatedPicture startAnimating];
+    
+    if(clicked == 0) {
+        clicked = 1;
+        NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/Beautiful_Ambient_Space_Music__Part_3.mp3", [[NSBundle mainBundle] resourcePath]]];
+        NSError *error;
+        sound = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+        sound.numberOfLoops = 0;
+        [sound play];
+        
+    }
+    playButton.layer.borderWidth = 1.0f;
+    playButton.layer.borderColor = [[UIColor blueColor]CGColor];
+    aboutButton.layer.borderWidth = 1.0f;
+    aboutButton.layer.borderColor = [[UIColor blueColor]CGColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    //stop background sound
+//    if([sound isPlaying])
+//    {
+//        [sound stop];
+//    }
 }
 
 /*

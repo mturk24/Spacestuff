@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface MainViewController : UIViewController
+#import <AVFoundation/AVFoundation.h>
+int clicked;
+@interface MainViewController : UIViewController {
+    AVAudioPlayer *sound;
+    IBOutlet UIButton *playButton;
+    IBOutlet UIButton *aboutButton;
+    IBOutlet UIImageView *animatedPicture;
+    
+    
+}
+-(IBAction) play:(id)sender;
 
 @end
