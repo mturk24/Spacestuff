@@ -60,39 +60,40 @@ int randomNum;
 
 -(void)questions {
     answerField.text = nil;
-    [self randomNumberBetween];
+//    [self randomNumberBetween];
     
-    if (usersHighestLevel == 0 && randomNum == 1) {
+    if (usersHighestLevel == 0 && ![_wrongMessage.text isEqualToString:nil]) {
         // 1
         _wrongMessage.text = nil;
         question.text = @"Is the sun a star or a planet?";
     }
-    if (usersHighestLevel == 0 && randomNum == 2) {
-        // 1
-        _wrongMessage.text = nil;
-        question.text = @"What is the name of the planet closest to the sun?";
-    }
-    if (usersHighestLevel == 0 && randomNum == 3) {
-        // 1
-        _wrongMessage.text = nil;
-        question.text = @"True or False: The sun is the center of our solar system.";
-    }
-    if (usersHighestLevel == 0 && randomNum == 4) {
-        // 1
-        _wrongMessage.text = nil;
-        question.text = @"True or False: Earth is the only planet to have life as far as we know";
-    }
-    if (usersHighestLevel == 0 && randomNum == 5) {
-        // 1
-        _wrongMessage.text = nil;
-        question.text = @"True or False: Earth only has 1 moon.";
-    }
+//    if (usersHighestLevel == 0 && randomNum == 2) {
+//        // 1
+//        _wrongMessage.text = nil;
+//        question.text = @"What is the name of the planet closest to the sun?";
+//    }
+//    if (usersHighestLevel == 0 && randomNum == 3) {
+//        // 1
+//        _wrongMessage.text = nil;
+//        question.text = @"True or False: The sun is the center of our solar system.";
+//    }
+//    if (usersHighestLevel == 0 && randomNum == 4) {
+//        // 1
+//        _wrongMessage.text = nil;
+//        question.text = @"True or False: Earth is the only planet to have life as far as we know";
+//    }
+//    if (usersHighestLevel == 0 && randomNum == 5) {
+//        // 1
+//        _wrongMessage.text = nil;
+//        question.text = @"True or False: Earth only has 1 moon.";
+//    }
 //    if (usersHighestLevel == 1 && _myBool == NO) {
 //        // 2
 //        question.text = @"How many planets are in our solar system?";
 //        wrongMessage.text =  @"That is incorrect! (Did you forget to capitalize?)";
 //        
 //    }
+    
     if (usersHighestLevel == 1 && ![_wrongMessage.text isEqualToString:nil]) {
         // 2
         
@@ -169,8 +170,83 @@ int randomNum;
         if (![answerField.text isEqualToString:nil]) {
             _wrongMessage.text =  @"That is incorrect! (Did you forget to capitalize?)";
         }
-       
     }
+//    if (usersHighestLevel == 0 && randomNum == 1 && [answerField.text isEqualToString:@"Star"]) {
+//        usersHighestLevel = 1;
+//        NSString *completedLevel = @"1";
+//        [[NSUserDefaults standardUserDefaults] setObject:completedLevel forKey:@"levelReached"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        _myBool = YES;
+//        [self questions];
+//    }
+//    else if (usersHighestLevel == 0 && randomNum == 1 && ![answerField.text isEqualToString:@"Star"]) {
+//        answerField.text = nil;
+//        if (![answerField.text isEqualToString:nil]) {
+//            _wrongMessage.text =  @"That is incorrect! (Did you forget to capitalize?)";
+//        }
+//    }
+    
+//    if (usersHighestLevel == 0 && randomNum == 2 && [answerField.text isEqualToString:@"Mercury"]) {
+//        usersHighestLevel = 1;
+//        NSString *completedLevel = @"1";
+//        [[NSUserDefaults standardUserDefaults] setObject:completedLevel forKey:@"levelReached"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        _myBool = YES;
+//        [self questions];
+//    }
+//    else if (usersHighestLevel == 0 && randomNum == 2 && ![answerField.text isEqualToString:@"Mercury"]) {
+//        answerField.text = nil;
+//        if (![answerField.text isEqualToString:nil]) {
+//            _wrongMessage.text =  @"That is incorrect! (Did you forget to capitalize?)";
+//        }
+//    }
+    
+//    if (usersHighestLevel == 0 && randomNum == 3 && [answerField.text isEqualToString:@"True"]) {
+//        usersHighestLevel = 1;
+//        NSString *completedLevel = @"1";
+//        [[NSUserDefaults standardUserDefaults] setObject:completedLevel forKey:@"levelReached"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        _myBool = YES;
+//        [self questions];
+//    }
+//    else if (usersHighestLevel == 0 && randomNum == 3 && ![answerField.text isEqualToString:@"True"]) {
+//        answerField.text = nil;
+//        if (![answerField.text isEqualToString:nil]) {
+//            _wrongMessage.text =  @"That is incorrect! (Did you forget to capitalize?)";
+//        }
+//    }
+//    
+//    if (usersHighestLevel == 0 && randomNum == 4 && [answerField.text isEqualToString:@"True"]) {
+//        usersHighestLevel = 1;
+//        NSString *completedLevel = @"1";
+//        [[NSUserDefaults standardUserDefaults] setObject:completedLevel forKey:@"levelReached"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        _myBool = YES;
+//        [self questions];
+//    }
+//    else if (usersHighestLevel == 0 && randomNum == 4 && ![answerField.text isEqualToString:@"True"]) {
+//        answerField.text = nil;
+//        if (![answerField.text isEqualToString:nil]) {
+//            _wrongMessage.text =  @"That is incorrect! (Did you forget to capitalize?)";
+//        }
+//    }
+//    
+//    if (usersHighestLevel == 0 && randomNum == 5 && [answerField.text isEqualToString:@"True"]) {
+//        usersHighestLevel = 1;
+//        NSString *completedLevel = @"1";
+//        [[NSUserDefaults standardUserDefaults] setObject:completedLevel forKey:@"levelReached"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        _myBool = YES;
+//        [self questions];
+//    }
+//    else if (usersHighestLevel == 0 && randomNum == 5 && ![answerField.text isEqualToString:@"True"]) {
+//        answerField.text = nil;
+//        if (![answerField.text isEqualToString:nil]) {
+//            _wrongMessage.text =  @"That is incorrect! (Did you forget to capitalize?)";
+//        }
+//    }
+    
+    
     
     if (usersHighestLevel == 1 && [answerField.text isEqualToString:@"False"]) {
         usersHighestLevel = 2;

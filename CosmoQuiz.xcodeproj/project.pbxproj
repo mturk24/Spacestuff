@@ -20,8 +20,6 @@
 		B2A8C0091B5A0FA200408288 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8C0081B5A0FA200408288 /* SecondViewController.m */; };
 		B2A8C00B1B5C6E2900408288 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A8C00A1B5C6E2900408288 /* Default-568h@2x.png */; };
 		B2DB03FA1B6C446900F3CAF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DB03F91B6C446900F3CAF6 /* AVFoundation.framework */; };
-		B2DB03FC1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2DB03FB1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 */; };
-		B2DB03FE1B6D2A6D00F3CAF6 /* spacemusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2DB03FD1B6D2A6D00F3CAF6 /* spacemusic.mp3 */; };
 		B2DB04001B6ED19300F3CAF6 /* space1.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB03FF1B6ED19300F3CAF6 /* space1.png */; };
 		B2DB04021B6ED19A00F3CAF6 /* space2.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB04011B6ED19A00F3CAF6 /* space2.png */; };
 		B2DB04041B6ED1A200F3CAF6 /* space3.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DB04031B6ED1A200F3CAF6 /* space3.png */; };
@@ -58,8 +56,6 @@
 		B2A8C0081B5A0FA200408288 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B2A8C00A1B5C6E2900408288 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B2DB03F91B6C446900F3CAF6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		B2DB03FB1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Beautiful_Ambient_Space_Music__Part_3.mp3; path = ../../../../Downloads/Beautiful_Ambient_Space_Music__Part_3.mp3; sourceTree = "<group>"; };
-		B2DB03FD1B6D2A6D00F3CAF6 /* spacemusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spacemusic.mp3; path = ../../../../Downloads/spacemusic.mp3; sourceTree = "<group>"; };
 		B2DB03FF1B6ED19300F3CAF6 /* space1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space1.png; path = ../../../space1.png; sourceTree = "<group>"; };
 		B2DB04011B6ED19A00F3CAF6 /* space2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space2.png; path = ../../../space2.png; sourceTree = "<group>"; };
 		B2DB04031B6ED1A200F3CAF6 /* space3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space3.png; path = ../../../space3.png; sourceTree = "<group>"; };
@@ -114,8 +110,6 @@
 				B2DB04031B6ED1A200F3CAF6 /* space3.png */,
 				B2DB04011B6ED19A00F3CAF6 /* space2.png */,
 				B2DB03FF1B6ED19300F3CAF6 /* space1.png */,
-				B2DB03FD1B6D2A6D00F3CAF6 /* spacemusic.mp3 */,
-				B2DB03FB1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 */,
 				B2A8BFE51B5A0CAD00408288 /* AppDelegate.h */,
 				B2A8BFE61B5A0CAD00408288 /* AppDelegate.m */,
 				B27F4B251B5CA72800ED08F1 /* MainViewController.h */,
@@ -199,6 +193,7 @@
 				TargetAttributes = {
 					B2A8BFDD1B5A0CAD00408288 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 87R286JKX2;
 					};
 				};
 			};
@@ -227,7 +222,6 @@
 			files = (
 				B2DB04081B6ED1B100F3CAF6 /* space5.png in Resources */,
 				B2DB04001B6ED19300F3CAF6 /* space1.png in Resources */,
-				B2DB03FE1B6D2A6D00F3CAF6 /* spacemusic.mp3 in Resources */,
 				B2DB04041B6ED1A200F3CAF6 /* space3.png in Resources */,
 				B2A8BFED1B5A0CAD00408288 /* Main.storyboard in Resources */,
 				B2DB04021B6ED19A00F3CAF6 /* space2.png in Resources */,
@@ -237,7 +231,6 @@
 				B2DB040A1B6ED1B900F3CAF6 /* space6.jpg in Resources */,
 				B2A8C00B1B5C6E2900408288 /* Default-568h@2x.png in Resources */,
 				B2A8BFF21B5A0CAD00408288 /* LaunchScreen.xib in Resources */,
-				B2DB03FC1B6C49E700F3CAF6 /* Beautiful_Ambient_Space_Music__Part_3.mp3 in Resources */,
 				B2A8BFEF1B5A0CAD00408288 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,11 +363,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CosmoQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = CosmoQuiz;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,11 +380,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CosmoQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = CosmoQuiz;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

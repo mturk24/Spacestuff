@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14E35447-EE80-47CE-AB37-341422EE52AE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CosmoQuiz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0359FC2FDD06A5540EDF5C9A8E8F0954310444BD</key>
+		<string>https://github.com/mturk24/Spacestuff.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CosmoQuiz.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0359FC2FDD06A5540EDF5C9A8E8F0954310444BD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mturk24/Spacestuff.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0359FC2FDD06A5540EDF5C9A8E8F0954310444BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0359FC2FDD06A5540EDF5C9A8E8F0954310444BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CosmoQuiz</string>
+		</dict>
+	</array>
+</dict>
+</plist>

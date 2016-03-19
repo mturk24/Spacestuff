@@ -22,6 +22,7 @@ int click;
     
     
 }
+
 @property (assign) BOOL myBool;
 @property (assign) UILabel *wrongMessage;
 
